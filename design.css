@@ -1,0 +1,14 @@
+.header ul{
+    list-style-type: none;
+}
+.header a{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.header li{
+    width: 15%;
+    list-style-type: none;
+    float: left;
+}
