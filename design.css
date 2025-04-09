@@ -1,14 +1,31 @@
 .header ul{
     list-style-type: none;
+    width: 100vw;
+    
 }
 .header a{
     display: flex;
     justify-content: space-evenly;
+    
 }
 
 
 .header li{
-    width: 15%;
+    width: 20%;
     list-style-type: none;
     float: left;
+    align-content: center;
+    height: 11vh;
+    background-color: violet;
+    font-size: 160%;
+    
+    
+    
+}
+.header p{
+    font-size: 190%;
+    
+}
+#sidor{
+    display: none;
 }
