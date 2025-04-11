@@ -1,3 +1,5 @@
+@import "Färger.css";
+
 .header ul{
     list-style-type: none;
     width: 100vw;
@@ -16,7 +18,8 @@
     float: left;
     align-content: center;
     height: 11vh;
-    background-color: violet;
+    background-color: var(--Secundary-color);
+    color: var(--primary-color);
     font-size: 160%;
     
     
