@@ -1,12 +1,25 @@
 @import "Färger.css";
-
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 50px ;
+    grid-template-areas: 
+    " header header header "
+    " main main aside "
+    " main2 main2 aside "
+    " footer footer footer ";
+}
+.header{
+    grid-area: header;
+}
 .header ul{
     list-style-type: none;
     width: 100vw;
     
 }
 .header a{
-    display: flex;
     justify-content: space-evenly;
     
 }
@@ -24,11 +37,30 @@
     
     
     
+    
 }
 .header p{
     font-size: 190%;
     
 }
+.main{
+    grid-area: main;
+    
+}
+.aside{
+    grid-area: aside;
+}
+.aside img{
+    float: right;
+}
+.main2{
+    grid-area: main2;
+    display: none;
+}
+.footer{
+    grid-area: footer;
+}
 #sidor{
+    
     display: none;
 }
